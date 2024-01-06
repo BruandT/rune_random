@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* Color pour les themes */
+@layer base {
+	:root {
+		--color-text-base: 149, 154, 160;
+		--color-text-secondary: 19, 24, 29;
+		--color-text-color: 255, 173, 73;
+		--color-fill: 255, 173, 73;
+		--color-bg-primary: 32, 37, 43;
+		--color-bg-secondary: 19, 24, 30;
+		--color-bg-tertiary: 11, 15, 20;
+		--color-bg-active: 255, 173, 73;
+	}
+}
