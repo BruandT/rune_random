@@ -3,7 +3,9 @@ import React from "react";
 function Home() {
   return (
     <>
-      <h2>Hello World !</h2>
+    <main className="flex-grow bg-skin-bg-primary text-skin-base">
+      <h2 className="">Hello World !</h2>
+      </main>
     </>
   );
 }
